@@ -1,12 +1,27 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "guilds": [
+    { "id": 1, "name": "Guild 1", "code": "guild-1",
+      "heroes": [
+      {"name": "Maya", "code":"maya", "equipments": [
+        {"code": "sword-1"},{"code": "shield-1"}
+      ]},{"name": "Robsbawn", "code":"robsbawn", "equipments": [
+        {"code": "sword-1"},{"code": "shield-1"}
+      ]},{"name": "Wisp", "code":"wisp", "equipments": [
+        {"code": "sword-1"},{"code": "shield-1"}
+      ]}
+      ]
+    },
+    { "id": 2, "name": "Guild 2", "code": "guild-2",
+      "heroes": [
+      {"name": "Maya", "code":"maya", "equipments": [
+        {"code": "sword-1"},{"code": "shield-1"}
+      ]},{"name": "Robsbawn", "code":"robsbawn", "equipments": [
+        {"code": "sword-1"},{"code": "shield-1"}
+      ]},{"name": "Scarlet", "code":"wisp", "equipments": [
+        {"code": "sword-1"},{"code": "shield-1"}
+      ]}
+      ]
+    }
   ],
   "profile": {
     "name": "typicode"
